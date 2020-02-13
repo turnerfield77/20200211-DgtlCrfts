@@ -6,6 +6,56 @@ html {
     width: 973px;
     height: 476px;
     margin: 0 auto;
-    background-image: url("atl.png");
+    background-image: url("../images/atl.png");
     background-color: #A8A8A5;
+}
+
+.nav-list {
+    /* border: 3px solid red; */
+    text-align: right;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.nav-list a {
+    display: inline-block;
+    text-decoration: none;
+    color: #90AFFC;
+    font-size: 11px;
+    font-weight: 200;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.nav-list a:hover {
+    color: white;
+}
+
+.logo {
+    width: 25%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.logo img {
+    width: 170px;
+    height: 70px;
+}
+
+.brand {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.brand-desc {
+    width: 30%;
+    color: #90AFFC;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
 }
