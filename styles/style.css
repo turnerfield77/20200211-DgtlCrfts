@@ -2,6 +2,13 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.body {
+    width: 973px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
 .skyline {
     width: 973px;
     height: 476px;
@@ -58,4 +65,17 @@ html {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
+}
+
+.down-arrow {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main-info {
+    width: 973px;
+    height: 100%; 
+    /* margin-top: 476px; */
+    margin: 0 auto;
+    border: 2px solid red;
 }
